@@ -87,7 +87,7 @@ const Home = () => {
         <p className='ml-[30px] font-[16.8px] font-montserrat'>(BONDING CURVES ARE A PONZI)</p>
         <div className='flex justify-between ml-[30px] mr-[30px]'>
           <p className='font-montserrat block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There <br /> are no price tiers; BAYC membership costs the same for everyone.</p>
-          <p className='font-montserrat text-[16px] font-[80] block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>Note: Thirty apes are being withheld from the sale. <br /> These will be used for giveaways, puzzle rewards—and <br /> for the creators' BAYC memberships</p>
+          <p className='font-montserrat text-[16px] font-[80] block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>Note: Thirty apes are being withheld from the sale. <br /> These will be used for giveaways, puzzle rewards—and <br /> for the creators&apos; BAYC memberships</p>
         </div>
         <div className='flex items-center justify-around bg-[#bfc500] h-[111.6px] p-[20.8px] ml-[30px] mr-[30px]'>
           <span className='basis-[200px] text-black font-black font-sans'>BUY AN APE</span>
