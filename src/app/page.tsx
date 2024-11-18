@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='pl-[15px]'>
+    <div className='pl-[15px] '>
               <div className='w-full flex justify-between items-center text-white'>
             <Image className='w-[180px] h-[98px]'
             src="/images/bayc-logo-z (1).jpg"
@@ -41,7 +41,7 @@ const Home = () => {
         />
       </div>
       <div>
-        <div className='flex ml-[30px] mt-[30px] mr-[30px]'>
+        <div className='flex flex-col sm:flex-row ml-[30px] mt-[30px] mr-[30px]'>
           <span>
             <p className='text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate]'>
               WELCOME TO THE <br />
@@ -75,7 +75,7 @@ const Home = () => {
             height={631}
             />
               &#160;&#160;&#160;&#160;
-            <Image className='flex w-[170px] h-[170px]'
+            <Image className='flex  w-[170px] h-[170px]'
             src="/images/ap4.jpg"
             alt="ap4"
             width={631}
@@ -95,7 +95,7 @@ const Home = () => {
           <button className='w-[240px] h-[75px] basis-[200px] text-[#bfc500] bg-black font-[600] text-center border-0 rounded-lg text-[16px] hover:bg-white hover:text-black'>BUY AN APE ON <br /> OPENSEA</button>
         </div>
         <hr id='hr' className='mt-[40px] ml-[30px] mr-[30px] block overflow-hidden border-b-slate-500 [unicode-bidi:isolate] [border-style:inset]'/>
-        <div className='flex m-[30px] justify-between'>
+        <div className='flex flex-col sm:flex-row m-[30px] justify-between'>
           <span className='basis-[650px] tracking-[3px] leading-[25px]'>
             <h1 className='block text-2xl mt-2 mb-2 font bold '>THE SPECS</h1>
             <p>Each Bored Ape is unique and programmatically generated from over 170 possible traits, including expression, headwear, clothing, and more. All apes are dope, but some are rarer than others.</p>
@@ -115,7 +115,7 @@ const Home = () => {
           </h1>
           <p className='mr-[225px] tracking-[3px] leading[25px] block mt-4 mb-4 mx-0 isolate'>When you buy a Bored Ape, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Bored Ape can serve as your digital identity, and open digital doors for you.</p>
         </div>
-        <div className='flex justify-between m-[60px]' >
+        <div className='flex flex-col sm:flex-row justify-between m-[60px]' >
        <span className='flex flex-col w-[150px]'>
         <Image className='w-[100px]'
         src="/images/icon1.jpg"
@@ -164,7 +164,7 @@ const Home = () => {
         </span>
     </div>
     <hr id='hr' className='mt-[40px] ml-[30px] mr-[30px] block overflow-hidden border-b-slate-500 [unicode-bidi:isolate] [border-style:inset]'/>
-        <div className='flex m-[30px] justify-between'>
+        <div className='flex flex-col sm:flex-row m-[30px] justify-between'>
          <span className='basis-[700px] tracking-[5px] '>
                <h1><b>THE BATHROOM</b></h1>
                <p>The BAYC Bathroom will become operational once the presale period is over. It contains a canvas accessible only to wallets containing at least one ape. Like any good dive bar bathroom, this is the place to draw, scrawl, or write expletives.</p>
@@ -182,9 +182,9 @@ const Home = () => {
     <span className='flex flex-col m-[30px] tracking-[5px]'>
         <h1 className='text-xl font-bold'><b>ROADMAP ACTIVATIONS</b></h1>
         <p className='w-[850px]'>We’re in this for the long haul.</p>
-        <p className='w-[850px]'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
+        <p className='w-[850px] sm:w-full'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
     </span>
-    <div className='flex'>
+    <div className='flex flex-col sm:flex-row'>
         <span className=''>
             <span className='flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>10%</h1> <p className='text-left'><s>We pay back our moms.</s></p>
