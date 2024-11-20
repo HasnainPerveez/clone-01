@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='pl-[15px]'>
+    <div className=''>
               <div className='w-full flex justify-between items-center text-white'>
             <Image className='w-[180px] h-[98px]'
             src="/images/bayc-logo-z (1).jpg"
