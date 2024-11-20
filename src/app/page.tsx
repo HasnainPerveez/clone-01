@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='pl-[15px] '>
+    <div className='pl-[15px]'>
               <div className='w-full flex justify-between items-center text-white'>
             <Image className='w-[180px] h-[98px]'
             src="/images/bayc-logo-z (1).jpg"
@@ -43,15 +43,15 @@ const Home = () => {
       <div>
         <div className='flex flex-col sm:flex-row ml-[30px] mt-[30px] mr-[30px]'>
           <span>
-            <p className='text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate]'>
+            <p className=' justify-center items-center text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate] sm: text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate]'>
               WELCOME TO THE <br />
               BORED APE YACHT CLUB
             </p>
-            <p className='text-base pr-[150px] text-justify font-thin font-montserrat'>
+            <p className='text-base sm:text-base pr-0 sm:pr-[150px] text-justify font-thin font-montserrat'>
               BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.
             </p>
           </span>
-          <span className='w-[631px]'>
+          <span className='flex flex-row sm:flex-col w-[631px]'>
             <Image className='flex w-[170px] h-[170px]'
             src="/images/ap1.jpg"
             alt="ap1"
@@ -67,7 +67,7 @@ const Home = () => {
             />
           </span>
           &#160;&#160;&#160;&#160;
-          <span className='w-[631px]'>
+          <span className='flex flex-row sm:flex-col w-[631px]'>
             <Image className='flex w-[170px] h-[170px]'
             src="/images/ap3.jpg"
             alt="ap3"
@@ -85,19 +85,19 @@ const Home = () => {
         </div>
         <p className='text-[#bfc500] ml-[30px] text-[25.6px] font-montserrat'>FAIR DISTRIBUTION</p>
         <p className='ml-[30px] font-[16.8px] font-montserrat'>(BONDING CURVES ARE A PONZI)</p>
-        <div className='flex justify-between ml-[30px] mr-[30px]'>
+        <div className=' sm:flex justify-between ml-[30px] mr-[30px]'>
           <p className='font-montserrat block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There <br /> are no price tiers; BAYC membership costs the same for everyone.</p>
           <p className='font-montserrat text-[16px] font-[80] block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>Note: Thirty apes are being withheld from the sale. <br /> These will be used for giveaways, puzzle rewards—and <br /> for the creators&apos; BAYC memberships</p>
         </div>
-        <div className='flex items-center justify-around bg-[#bfc500] h-[111.6px] p-[20.8px] ml-[30px] mr-[30px]'>
+        <div className='flex items-center justify-around w-full bg-[#bfc500] h-[125.6px] sm:h-[111.6px] p-[20.8px] ml-[30px] mr-[30px]'>
           <span className='basis-[200px] text-black font-black font-sans'>BUY AN APE</span>
-          <p id='gr' className='basis-[350px] text-black block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>The initial sale has sold out. To get your Bored Ape, check out the collection on OpenSea.</p>
+          <p id='gr' className='text-xs sm:text-xs md:text-base font-normal basis-[350px] text-black block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>The initial sale has sold out. To get your Bored Ape, check out the collection on OpenSea.</p>
           <button className='w-[240px] h-[75px] basis-[200px] text-[#bfc500] bg-black font-[600] text-center border-0 rounded-lg text-[16px] hover:bg-white hover:text-black'>BUY AN APE ON <br /> OPENSEA</button>
         </div>
         <hr id='hr' className='mt-[40px] ml-[30px] mr-[30px] block overflow-hidden border-b-slate-500 [unicode-bidi:isolate] [border-style:inset]'/>
         <div className='flex flex-col sm:flex-row m-[30px] justify-between'>
           <span className='basis-[650px] tracking-[3px] leading-[25px]'>
-            <h1 className='block text-2xl mt-2 mb-2 font bold '>THE SPECS</h1>
+            <h1 className='block text-2xl mt-2 mb-2 font-bold '>THE SPECS</h1>
             <p>Each Bored Ape is unique and programmatically generated from over 170 possible traits, including expression, headwear, clothing, and more. All apes are dope, but some are rarer than others.</p>
             <p>The apes are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a className='text-[#bfc500]' href=""> (See Record and Proof.)</a> Purchasing an ape costs 0.08 ETH.</p>
             <p>To access members-only areas such as <a className='text-[#bfc500]' href=""> THE BATHROOM </a> , Apeholders will need to be signed into their Metamask Wallet.</p>
@@ -113,7 +113,7 @@ const Home = () => {
           <h1 className='block text-[2em] mt-[0.67em] mb-[0.67em] font-bold isolate'>
             <b>WELCOME TO THE CLUB</b>
           </h1>
-          <p className='mr-[225px] tracking-[3px] leading[25px] block mt-4 mb-4 mx-0 isolate'>When you buy a Bored Ape, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Bored Ape can serve as your digital identity, and open digital doors for you.</p>
+          <p className='mr-0 sm:mr-[225px] tracking-[3px] leading[25px] block mt-4 mb-4 mx-0 isolate'>When you buy a Bored Ape, you’re not simply buying an avatar or a provably-rare piece of art. You are gaining membership access to a club whose benefits and offerings will increase over time. Your Bored Ape can serve as your digital identity, and open digital doors for you.</p>
         </div>
         <div className='flex flex-col sm:flex-row justify-between m-[60px]' >
        <span className='flex flex-col w-[150px]'>
@@ -181,8 +181,8 @@ const Home = () => {
     <hr id='hr' className='mt-[40px] ml-[30px] mr-[30px] block overflow-hidden border-b-slate-500 [unicode-bidi:isolate] [border-style:inset]'/>
     <span className='flex flex-col m-[30px] tracking-[5px]'>
         <h1 className='text-xl font-bold'><b>ROADMAP ACTIVATIONS</b></h1>
-        <p className='w-[850px]'>We’re in this for the long haul.</p>
-        <p className='w-[850px] sm:w-full'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
+        <p className='w-auto sm:w-[850px]'>We’re in this for the long haul.</p>
+        <p className='w-auto sm:w-[850px] sm:w-full'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
     </span>
     <div className='flex flex-col sm:flex-row'>
         <span className=''>
