@@ -208,7 +208,7 @@ const Home = () => {
                 <h1 className='h1'>100%</h1><p className='text-left'><s>The Mutant Ape (NFT Breeding) Arcade Machine gets ﬁxed. And we cook up new ways to ape with our friends.</s></p>
             </span>
           </span>
-          <Image className='h-[350px] bg-[#bfc500]'
+          <Image className='h-[350px] bg-[#bfc500] mr-[30px]'
           src="/images/shirt.jpg"
           alt="shirt-pic"
           width={720}
