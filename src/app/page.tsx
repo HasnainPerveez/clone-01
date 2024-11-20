@@ -89,7 +89,7 @@ const Home = () => {
           <p className='font-montserrat block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>There are no bonding curves here. Buying a Bored Ape costs 0.08 ETH. There <br /> are no price tiers; BAYC membership costs the same for everyone.</p>
           <p className='font-montserrat text-[16px] font-[80] block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>Note: Thirty apes are being withheld from the sale. <br /> These will be used for giveaways, puzzle rewards—and <br /> for the creators&apos; BAYC memberships</p>
         </div>
-        <div className='flex items-center justify-around w-full bg-[#bfc500] h-[125.6px] sm:h-[111.6px] p-[20.8px] ml-[30px] mr-[30px]'>
+        <div className='flex items-center justify-around bg-[#bfc500] h-[125.6px] sm:h-[111.6px] p-[20.8px] ml-[30px] mr-[30px]'>
           <span className='basis-[200px] text-black font-black font-sans'>BUY AN APE</span>
           <p id='gr' className='text-xs sm:text-xs md:text-base font-normal basis-[350px] text-black block mt-[30px] mb-[30px] [unicode-bidi:isolate]'>The initial sale has sold out. To get your Bored Ape, check out the collection on OpenSea.</p>
           <button className='w-[240px] h-[75px] basis-[200px] text-[#bfc500] bg-black font-[600] text-center border-0 rounded-lg text-[16px] hover:bg-white hover:text-black'>BUY AN APE ON <br /> OPENSEA</button>
