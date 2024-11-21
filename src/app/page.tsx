@@ -4,30 +4,30 @@ import Image from 'next/image'
 const Home = () => {
   return (
     <div className=''>
-              <div className='w-full flex justify-between items-center text-white'>
+          <div className='w-full sm:flex justify-between items-center text-white'>
             <Image className='w-[180px] h-[98px]'
             src="/images/bayc-logo-z (1).jpg"
             alt="Logo"
             width={8000}
             height={3088}
             />
-            <ul className='flex text-[10px] '>
-                <li className='pl-[15px]'>
+            <ul className='sm:flex text-[10px] '>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">BUY AN APP</a>
                 </li>
-                <li className='pl-[15px]'>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">ROAD MAP</a>
                 </li>
-                <li className='pl-[15px]'>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">TEAM</a>
                 </li>
-                <li className='pl-[15px]'>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">GALLERY</a>
                 </li>
-                <li className='pl-[15px]'>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">PROVENANCE</a>
                 </li>
-                <li className='pl-[15px]'>
+                <li className='py-[6px] sm:pl-[15px]'>
                     <a className='hover:text-[#bfc500]' href="">MEMBERS</a>
                 </li>
             </ul>
@@ -43,11 +43,11 @@ const Home = () => {
       <div>
         <div className='flex flex-col sm:flex-row ml-[30px] mt-[30px] mr-[30px]'>
           <span>
-            <p className=' justify-center items-center text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate] sm: text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate]'>
+            <p className=' justify-center items-center text-[30px] font-black font-sans block mt-4 mb-4 [unicode-bidi:isolate] sm:text-[30px] sm:font-black sm:font-sans sm:block sm:mt-4 sm:mb-4 sm:[unicode-bidi:isolate]'>
               WELCOME TO THE <br />
               BORED APE YACHT CLUB
             </p>
-            <p className='text-base sm:text-base pr-0 sm:pr-[150px] text-justify font-thin font-montserrat'>
+            <p className='text-base sm:text-base pr-0 sm:pr-[150px] text-center sm:text-justify font-thin font-montserrat'>
               BAYC is a collection of 10,000 Bored Ape NFTs—unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.
             </p>
           </span>
@@ -95,8 +95,8 @@ const Home = () => {
           <button className='w-[240px] h-[75px] basis-[200px] text-[#bfc500] bg-black font-[600] text-center border-0 rounded-lg text-[16px] hover:bg-white hover:text-black'>BUY AN APE ON <br /> OPENSEA</button>
         </div>
         <hr id='hr' className='mt-[40px] ml-[30px] mr-[30px] block overflow-hidden border-b-slate-500 [unicode-bidi:isolate] [border-style:inset]'/>
-        <div className='flex flex-col sm:flex-row m-[30px] justify-between'>
-          <span className='basis-[650px] tracking-[3px] leading-[25px]'>
+        <div className='flex flex-col w-full sm:flex-row m-[30px] sm:justify-between'>
+          <span className='basis-[250px] sm:basis-[650px] tracking-[3px] leading-[25px]'>
             <h1 className='block text-2xl mt-2 mb-2 font-bold '>THE SPECS</h1>
             <p>Each Bored Ape is unique and programmatically generated from over 170 possible traits, including expression, headwear, clothing, and more. All apes are dope, but some are rarer than others.</p>
             <p>The apes are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a className='text-[#bfc500]' href=""> (See Record and Proof.)</a> Purchasing an ape costs 0.08 ETH.</p>
@@ -182,33 +182,33 @@ const Home = () => {
     <span className='flex flex-col m-[30px] tracking-[5px]'>
         <h1 className='text-xl font-bold'><b>ROADMAP ACTIVATIONS</b></h1>
         <p className='w-auto sm:w-[850px]'>We’re in this for the long haul.</p>
-        <p className='w-auto sm:w-[850px] sm:w-full'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
+        <p className='w-auto sm:w-[850px]'>We’ve set up some goalposts for ourselves. Once we hit a target sell through percentage, we will begin to work on realizing the stated goal.</p>
     </span>
-    <div className='flex flex-col sm:flex-row'>
+    <div className='flex flex-col justify-items-center sm:flex-row sm:justify-items-center'>
         <span className=''>
-            <span className='flex ml-[50px] mr-[50px]'>
-                <h1 className='h1'>10%</h1> <p className='text-left'><s>We pay back our moms.</s></p>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
+                <h1 className='h1'>10%</h1> <p className='text-center sm:text-left'><s>We pay back our moms.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>20%</h1><p className='text-left'><s>We release the Caged Apes. 5 Caged Apes (tokens held back from the sale) are airdropped to random Apeholders.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>40%</h1><p className='text-left'><s>BAYC gets its own YouTube channel, BAYC LoFi Radio - Beats to Ape into Shitcoins To.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>60%</h1><p className='text-left'><s>Member-Exclusive BAYC Merch Store gets unlocked, featuring Limited Edition tees, hoodies, and other goodies.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>80%</h1><p className='text-left'><s>The clubhouse image becomes interactive and the Mysterious Note becomes legible, beginning a treasure hunt. The first to solve the mystery will be rewarded 5 ETH and a Bored Ape.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>90%</h1><p className='text-left'><s>The Bored Ape liquidity pool is initiated.</s></p>
             </span>
-            <span className='flex ml-[50px] mr-[50px]'>
+            <span className='flex-row sm:flex ml-[50px] mr-[50px]'>
                 <h1 className='h1'>100%</h1><p className='text-left'><s>The Mutant Ape (NFT Breeding) Arcade Machine gets ﬁxed. And we cook up new ways to ape with our friends.</s></p>
             </span>
           </span>
-          <Image className='h-[350px] bg-[#bfc500] mr-[30px]'
+          <Image className='h-[350px] bg-[#bfc500] sm:mr-[30px]'
           src="/images/shirt.jpg"
           alt="shirt-pic"
           width={720}
